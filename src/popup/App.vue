@@ -62,7 +62,7 @@ const downloadAsCsv = () => {
 
 const convertToCSV = (arr) => {
     return arr.map(item => Object.values(item).join(',')).join('\n');
-},
+};
 </script>
 
 <style lang="scss" scoped></style>
